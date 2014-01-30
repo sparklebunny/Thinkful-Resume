@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Rosarivo:400,400italic|Advent+Pro:400,700,600|Almendra:400,400italic);
+
+
+body {
+	background-color: #FFFFCC;
+	/*padding-left: 20px; */
+	margin-bottom: 50px;
+}
+
+
+div#contact {
+	text-align: center;
+	overflow: hidden;
+	/* padding-left: 130px; */
+}
+
+
+
+p#phone {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+p#email {
+	font-size: 150%;
+	padding: 10px;
+	font-weight: bold;
+}
+
+img {
+	height: 40px;
+}
+
+
+div#social {
+	/*float: right;
+	padding-right: 100px;
+	padding-top: -150px;
+	overflow: hidden; */
+	position: fixed;
+	top: 20px;
+	right: 100px;
+
+}
+
+
+a:link {
+		color: #336699;
+		text-decoration: none;	
+}
+
+a:hover {
+	color: #663399;
+	background: #0099CC;
+	border-radius: 10px;
+
+}
+
+a:visited {
+	color: #7BA428;
+
+}
+
+
+ul.list {
+	padding-bottom: 10px;
+}
+
+
+li.title {
+	list-style-type: none;
+	font-weight: bold;
+}
+
+ul.bullet {
+	list-style-position: inside;
+	text-indent: 10px;
+	list-style-image: url(../images/button-green.png);
+}
+
+li.degree {
+	list-style-image: url(../images/button-green.png);
+	font-style: italic;
+	list-style-position: inside;
+	text-indent: 10px;
+}
+
+li.focus {
+	list-style-image: url(../images/button_pointed_blue.png);
+	list-style-position: inside;
+	text-indent: 20px;
+}
+
+ul.projects {
+	list-style-image: url(../images/button_pointed_blue.png);
+	list-style-position: inside;
+	text-indent: 10px;
+
+}
+
+
+
+div#experience {
+	padding: 20px;
+
+	}
+
+div#education {
+	padding: 20px;
+}
+
+div#projects {
+	padding: 20px;
+}
+
+
+ul.projects li {
+	padding-bottom: 20px;
+}
+
+h1 {
+	line-height: 1.5em;
+	font-size: 250%;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Advent Pro", sans-serif;
+	text-shadow: 1px 2px #7BA428;
+}
+
+h2 {
+	font-family: "Advent Pro", sans-serif;
+	font-weight: bold;
+	font-size: 200%;
+}
+
+h3 {
+	font-family: "Advent Pro", sans-serif;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+h4 {
+	line-height: 1em;
+	font-size: 100%;
+	font-weight: bold;
+	font-style: italic;
+	font-family: "Advent Pro", sans-serif;
+}
+
+
+p {
+	font-family: "Almendra", serif;
+	font-weight: normal;
+}
+
+div#footer a {
+	color: white;
+}
+
+div#footer {
+	text-align: center;
+
+	font-size: 75%;
+	font-style: italic;
+	color: white;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	background-color: #336699;
+	width: 1400px;
+	height: 20px;
+
+}
+
